@@ -14,6 +14,11 @@ const mul=(a,b)=>{
     return a*b;
 }
 
+const modules=(a,b)=>{
+    return a%b;
+}
+
 console.log(sum(6,7));
 console.log(sum2());
 console.log(mul(6,2));
+console.log(modules(9,2));
